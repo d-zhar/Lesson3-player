@@ -1,0 +1,841 @@
+@import url(./reset.css);
+
+/* Шапка навигации */
+
+.background__img {
+  background-image: url(./img/top-background.png);
+  background-size: cover;
+  height: 62.5rem;
+  width: 120rem;
+  padding-left: 405px;
+}
+
+.block__logo-head {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.block__logo-head-img {
+  height: 60px;
+  width: 223px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background-image: url(./img/logo.png);
+  background-size: cover;
+  height: 60px;
+  width: 60px;
+}
+
+.logo__text {
+  background-image: url(./img/logo-text.png);
+  background-size: cover;
+  height: 42px;
+  width: 143px;
+}
+
+.block__nav-size {
+  width: 632px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  padding-left: 70px;
+}
+
+.text__head-style {
+  color: #ffffff;
+  font-weight: 600;
+  size: 18px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Середина шапки с текстом */
+
+.header__text-container {
+  margin-top: 322px;
+}
+
+.header__text-style {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text__style1 {
+  color: #ffffff;
+  font-size: 48px;
+  height: 72px;
+  width: 270px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header__text-style2 {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 150px;
+}
+.text__style2 {
+  background-image: url(./img/War\ For\ Love.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 655px;
+}
+
+/* Плеер */
+
+.player__container {
+  padding-top: 70px;
+}
+
+.player__style {
+  width: 1110px;
+  height: 27px;
+}
+
+.player__items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.triangle {
+  width: 27px;
+  height: 27px;
+  border-top: 12px solid transparent;
+  border-left: 25px solid #ffffff;
+  border-bottom: 12px solid transparent;
+}
+
+.line__style {
+  display: flex;
+  justify-content: center;
+}
+
+.line {
+  border: 2px solid #7a66cc;
+  height: 0px;
+  width: 70px;
+  padding-left: 30px;
+}
+
+.line2 {
+  border: 2px solid #ffffff;
+  height: 0px;
+  width: 887px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.time {
+  color: #ffffff;
+  font-size: 18px;
+  height: 27px;
+  width: 109px;
+  display: flex;
+  align-items: center;
+}
+
+/* 3 блока с кратинками в шапке */
+
+.header__content-bot {
+  height: 300px;
+  width: 1110px;
+  padding-top: 90px;
+}
+
+.content__bot {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  height: 300px;
+  width: 350px;
+}
+
+.box_mini {
+  background-color: #910f0f80;
+  border-radius: 20px 0px 20px 0px;
+  height: 90px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.cont1 {
+  background-image: url(./img/main-img-3x1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  height: 300px;
+  width: 350px;
+}
+
+.cont2 {
+  background-image: url(./img/main-img-3x2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cont3 {
+  background-image: url(./img/main-img-3x3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.content__text {
+  color: #ffffff;
+  height: 60px;
+  width: 330px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* фон main-footer */
+
+.background__main {
+  background-color: #1c1b21;
+  height: 3650px;
+  width: 1920px;
+  padding-left: 405px;
+}
+
+/* MAIN верхний раздел с текстом */
+
+.container__box-top {
+  height: 900px;
+  width: 1110px;
+  padding-top: 250px;
+}
+
+.logo__box-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon__logo {
+  background-image: url(./img/Group\ line.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 31px;
+  width: 64px;
+  margin-bottom: 16px;
+}
+
+.text__logo {
+  text-align: center;
+  font-size: 48px;
+  height: 72px;
+  width: 310px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.content__txt-img {
+  height: 550px;
+  width: 1110px;
+  display: flex;
+  justify-content: stretch;
+  justify-content: space-between;
+}
+
+.content__txt {
+  height: 312px;
+  width: 520px;
+}
+
+.text__style3 {
+  padding-top: 50px;
+}
+
+.format__txt {
+  color: #ffffff7e;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.colum__img-txt {
+  padding-top: 40px;
+  height: 160px;
+  width: 520px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 60px;
+}
+
+.block__text1 {
+  height: 30px;
+  width: 215px;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  background-color: #910f0f;
+  border-radius: 10px 0px 10px 0px;
+  height: 30px;
+  width: 30px;
+}
+
+.bl {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+  height: 30px;
+  width: 175px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* Картинки девушка машина */
+
+.content__img {
+  height: 466px;
+  width: 445px;
+}
+
+.img__box {
+  background-image: url(./img/topgerl.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 400px;
+  border-radius: 25px 0px 25px 0px;
+  position: absolute;
+  z-index: 1;
+}
+
+.img__box2 {
+  background-image: url(./img/botauto.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 400px;
+  border-radius: 25px 0px 25px 0px;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  margin-top: 70px;
+  margin-left: 80px;
+}
+
+/* Баба с значком МТВ */
+
+.container__box-main {
+  margin-top: 80px;
+  height: 483px;
+  width: 1110px;
+}
+
+.box-main__block {
+  height: 313px;
+  width: 1110px;
+  color: #ffffff7e;
+  border-radius: 30px 0px 30px 0px;
+  border: solid 1px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__block-text {
+  padding-left: 50px;
+  height: 230px;
+  width: 520px;
+}
+
+.block-text__img {
+  background-image: url(./img/“.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 92px;
+  width: 103px;
+  color: #ffffff62;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.block__text__style {
+  height: 230px;
+  width: 520px;
+  font-size: 18px;
+  text-align: justify;
+  position: relative;
+  top: 50px;
+  line-height: 25px;
+}
+
+.block-text__line {
+  border: 1px solid #ffffff8a;
+  height: 0px;
+  width: 520px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.block-text__text-color {
+  color: #7a66cc;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.main_block-img-style {
+  height: 370px;
+  width: 483px;
+  margin-top: -80px;
+}
+
+.main_block-img {
+  background-image: url(./img/MTVgerl.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 350px;
+  margin-left: 100px;
+}
+
+/* Круглый плеер с музыкой */
+
+.container__box-main2 {
+  height: 584px;
+  width: 1110px;
+  padding-top: 80px;
+}
+
+.box__main2-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block__img1 {
+  background-image: url(./img/img\ circlgerl.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 510px;
+  width: 510px;
+}
+
+.block__img1__box {
+  height: 584px;
+  width: 540px;
+}
+
+.box__logo {
+  height: 72px;
+  width: 540px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo__line {
+  background-image: url(./img/linelogo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 31px;
+  width: 64px;
+}
+
+.logo__text1 {
+  font-size: 52px;
+  color: #ffffff;
+  font-weight: 700;
+  height: 72px;
+  width: 290px;
+  padding-left: 30px;
+}
+
+/* Плеер с прокруткой */
+
+.player__style_2 {
+  width: 540px;
+  height: 27px;
+  padding-top: 30px;
+}
+
+.line {
+  border: 2px solid #7a66cc;
+  height: 0px;
+  width: 70px;
+  padding-left: 30px;
+}
+
+.line2 {
+  border: 2px solid #ffffff;
+  height: 0px;
+  width: 300px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.time {
+  color: #ffffff;
+  font-size: 18px;
+  height: 27px;
+  width: 109px;
+  display: flex;
+  align-items: center;
+}
+
+/* Меню управления плеером(список песен) */
+
+.list__song {
+  padding-top: 80px;
+  color: #ffffff;
+  line-height: 3;
+  height: 490px;
+  width: 540px;
+}
+
+.line__style__box {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 20px;
+}
+
+.line__style__box-1 {
+  height: 21px;
+  width: 15px;
+  color: #ffffff71;
+  font-size: 14px;
+}
+
+.line__style__box-2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.new1 {
+  color: #7a66cc;
+  font-weight: 600;
+}
+
+/* Меню следования */
+
+.list__song__follow {
+  padding-top: 30px;
+  height: 36px;
+  width: 540px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 70px;
+}
+
+.follow__text {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.follow__img {
+  background-image: url(./img/follow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 36px;
+  width: 207px;
+}
+
+/* Фото  альбом */
+
+.container__photo {
+  height: 600px;
+  width: 1110px;
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(4, 255px);
+  grid-auto-rows: 255px;
+  column-gap: 20px;
+}
+
+.photo1 {
+  background-image: url(./img/q1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 255px;
+}
+
+.photo2 {
+  background-image: url(./img/q2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 235px;
+  width: 255px;
+}
+
+.photo__style2 {
+  height: 235px;
+  width: 255px;
+}
+
+.photo3 {
+  background-image: url(./img/q3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 235px;
+  width: 255px;
+}
+
+.photo__style3 {
+  height: 235px;
+  width: 255px;
+}
+
+.photo4 {
+  background-image: url(./img/q5.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 540px;
+  width: 255px;
+}
+
+.photo__style4 {
+  height: 540px;
+  width: 255px;
+}
+
+.photo5 {
+  background-image: url(./img/q4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 255px;
+  width: 530px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo__style5 {
+  height: 255px;
+  width: 530px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.lv {
+  color: #7a66cc;
+  font-size: 24px;
+  font-weight: 700;
+  height: 36px;
+  width: 316px;
+  text-align: center;
+}
+
+/* Билеты на конецерты */
+
+.container__tickets {
+  padding-top: 120px;
+  height: 650px;
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tickets__box__style {
+  height: 473px;
+  width: 350px;
+  background-color: #2f2b2b;
+  border-radius: 30px 0px 30px 0px;
+}
+
+.box__style__img1 {
+  background-image: url(./img/con1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 350px;
+}
+
+.box__style__img2 {
+  background-image: url(./img/con2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 350px;
+}
+
+.box__style__img3 {
+  background-image: url(./img/con3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 350px;
+}
+
+.box__style__text {
+  text-align: center;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.tickets__style1 {
+  height: 27px;
+  width: 120px;
+  color: #ffffff88;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: start;
+}
+
+.tickets__style2 {
+  height: 26px;
+  width: 260px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 30px 0 20px 0;
+  text-align: start;
+}
+
+.style__text__t1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tickets__style3 {
+  height: 24px;
+  width: 94px;
+  color: #ffffff6c;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.tickets__style4 {
+  height: 60px;
+  width: 180px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #7a66cc;
+  border: 1px solid #7a66cc;
+  border-radius: 30px 0px 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Подвальчик */
+
+.container__footer {
+  background-color: #1c1b21;
+  height: 520px;
+  width: 1920px;
+  padding-left: 405px;
+  display: flex;
+  justify-content: center;
+}
+
+.container__footer__box {
+  height: 520px;
+  width: 1110px;
+  margin-left: 170px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer__box {
+  height: 520px;
+  width: 600px;
+  text-align: center;
+}
+
+.footer__logo {
+  height: 60px;
+  width: 533px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__style {
+  margin-top: 100px;
+  height: 60px;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__text {
+  height: 54px;
+  width: 220px;
+  text-align: right;
+}
+
+.text__line-1 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.text__line-2 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__text2 {
+  height: 54px;
+  width: 304px;
+  text-align: left;
+}
+
+.text__line-3 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.text__line-4 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer__icon__cont {
+  height: 60px;
+  width: 600px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__icon {
+  background-image: url(./img/Groupicon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 510px;
+  margin-left: 40px;
+}
+
+.footer__text-bot {
+  text-align: center;
+  color: #ffffff5e;
+  font-size: 13px;
+  font-weight: 400;
+  height: 60px;
+  width: 600px;
+  margin-top: 100px;
+}
